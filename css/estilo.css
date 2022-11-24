@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
 .container {
   padding: 40px 50px;
 }
@@ -33,23 +38,29 @@
 .img-um {
   width: 238px;
   height: 426px;
+  line-height: 30px;
 }
 
 .img-dois {
   width: 305px;
   height: 471px;
+  line-height: 30px;
   position: relative;
   top: 96px;
+  line-height: 30px;
 }
 
 .img-tres {
   width: 300px;
   height: 399px;
+  line-height: 30px;
+  line-height: 30px;
 }
 
 .img-quatro {
   width: 276px;
   height: 469px;
+  line-height: 30px;
 }
 
 .img-cinco {
@@ -57,11 +68,13 @@
   top: 150px;
   width: 274px;
   height: 360px;
+  line-height: 30px;
 }
 
 .img-seis {
   width: 335px;
   height: 449px;
+  line-height: 30px;
 }
 
 .footer {
@@ -72,11 +85,44 @@
 
 /*Mobile*/
 @media screen and (max-width: 547px) {
+  .topo h1 {
+    font-family: "PT Serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+  }
+  .lado-esquerdo {
+    margin-top: 20px;
+    line-height: 20px;
+  }
+  .lado-esquerdo p {
+    margin-top: 10px;
+    width: 333px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .lado-esquerdo h2 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+  }
+  .container {
+    margin-left: -30px;
+  }
   .img-um {
     width: 138px;
     height: 261px;
   }
   .img-dois {
+    padding-left: 30px;
     width: 177px;
     height: 283px;
   }
@@ -89,6 +135,7 @@
     height: 303px;
   }
   .img-cinco {
+    padding-left: 30px;
     width: 160px;
     height: 234px;
   }
@@ -98,10 +145,5 @@
   }
 }
 /*Responsive, Tablet*/
-@media screen and (max-width: 768px) {
-  .container {
-    border: 2px solid red;
-  }
-}
 
 /*# sourceMappingURL=estilo.css.map */
