@@ -5,9 +5,21 @@
     padding: 0
     box-sizing: border-box
 
-p
-    font-size: 18px
+p   
+    font-family: 'Poppins'
+    font-style: normal
     font-weight: 600
+    font-size: 18px
+    line-height: 27px
+    font-weight: 600
+
+h6
+    font-family: 'PT Serif'
+    font-style: normal
+    font-weight: 400
+    font-size: 12px
+    line-height: 16px
+    text-transform: uppercase
 
 .container
     padding: 40px 50px
@@ -17,13 +29,47 @@ p
     flex-wrap: wrap
     justify-content: space-between
 
-.topo p
+.topo h1
+    font-family: 'PT Serif'
+    font-style: normal
+    font-weight: 700
+    font-size: 36px
+    letter-spacing: -0.045em
+
+/*lado esquerdo*/
+.lado-esquerdo
+    margin-top: 5px
+
+.lado-esquerdo h2
+    font-family: 'Poppins'
+    font-style: normal
+    font-weight: 600
+    font-size: 18px
+    line-height: 27px
+    text-transform: uppercase
+
+.lado-esquerdo h3
     width: 439px
+    height: 67px
+    font-family: 'Poppins'
+    font-style: normal
+    font-weight: 400
+    font-size: 18px
+    line-height: 27px
 
 
 /*Container Imagens*/
+
+/*teste*/
+.teste
+    display: flex
+
+.teste h6
+    writing-mode: vertical-lr
+
 .img
     max-width: 100%
+
 
 .container-imagens
     display: flex
@@ -72,8 +118,29 @@ p
     margin-bottom: 50px
     text-align: center
 
+.footer p
+    font-family: 'Montserrat'
+    font-style: normal
+    font-weight: 500
+    font-size: 14px
+    line-height: 17px
+    color: #A9A9A9
+
 /*Mobile*/
 @media screen and (max-width: 547px)
+
+    .container
+        padding: 40px 50px
+
+    p
+        font-family: 'Poppins'
+        font-style: normal
+        font-weight: 600
+        font-size: 14px
+        line-height: 21px
+
+    h6
+        font-size: 10px
 
     .topo h1
         font-family: 'PT Serif'
@@ -87,15 +154,6 @@ p
         margin-top: 20px
         line-height: 20px
 
-    .lado-esquerdo p
-        margin-top: 10px
-        width: 333px
-        font-family: 'Poppins'
-        font-style: normal
-        font-weight: 400
-        font-size: 14px
-        line-height: 21px
-
     .lado-esquerdo h2
         font-family: 'Poppins'
         font-style: normal
@@ -103,6 +161,15 @@ p
         font-size: 18px
         line-height: 27px
         text-transform: uppercase
+
+    .lado-esquerdo h3
+        margin-top: 10px
+        width: 333px
+        font-family: 'Poppins'
+        font-style: normal
+        font-weight: 400
+        font-size: 14px
+        line-height: 21px
 
     .container
         margin-left: -30px
@@ -112,7 +179,7 @@ p
         height: 261px
 
     .img-dois
-        padding-left: 30px
+        padding-left: 40px
         width: 177px
         height: 283px
 
@@ -125,7 +192,7 @@ p
         height: 303px
 
     .img-cinco
-        padding-left: 30px
+        padding-left: 40px
         width: 160px
         height: 234px
 
@@ -133,6 +200,19 @@ p
         width: 197px
         height: 289px
 
-/*Responsive, Tablet*/
-@media screen and (max-width: 768px)
+    //Footer
+    .footer p
+        font-family: 'Montserrat'
+        font-style: normal
+        font-weight: 500
+        font-size: 14px
+        line-height: 17px
+
+/*Landscape*/
+@media screen and (max-height: 412px) and (max-width: 915px)
+    
+    .img-quatro
+        margin-top: 40px 
+
+
    
